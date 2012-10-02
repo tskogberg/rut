@@ -20,7 +20,7 @@ Or install it yourself as:
 
     $ rut <router's ip address>
 
-    Example:
+Example:
   
     $ rut 10.0.1.1
     MyRouter has been up 102 days, 22:00:21.34
