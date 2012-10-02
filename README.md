@@ -1,6 +1,6 @@
 # Rut
 
-TODO: Write a gem description
+Rut is a CLI script that'll show you your routers uptime.
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ rut <router's ip address>
+
+    Example:
+  
+    $ rut 10.0.1.1
+    MyRouter has been up 102 days, 22:00:21.34
 
 ## Contributing
 
