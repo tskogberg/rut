@@ -2,7 +2,7 @@
 
 require 'optparse'
 require 'methadone'
-require 'rut'
+#require 'rut'
 require 'snmp'
 
 class App
@@ -46,21 +46,10 @@ class App
   # Declare command-line interface here
 
   description "Shows uptime on your router"
-  #
-  # Accept flags via:
-  # on("--flag VAL","Some flag")
-  # options[flag] will contain VAL
-  #
-  # Specify switches via:
-  # on("--[no-]switch","Some switch")
-  #
-  # Or, just call OptionParser methods on opts
-  #
+  
   # Require an argument
+
   arg :router_ip 
-  #
-  # # Make an argument optional
-  # arg :optional_arg, :optional
 
   version Rut::VERSION
 
