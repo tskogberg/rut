@@ -8,7 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Rut::VERSION
   gem.authors       = ["Tomas Skogberg"]
   gem.email         = ["tomas.skogberg@gmail.com"]
-  gem.description   = ["Rut is a CLI script that'll show you your routers uptime."]
+  gem.summary       = "Router Uptime (rut)"
+  gem.description   = "Rut is a CLI script that'll show you your routers uptime."
   gem.homepage      = "https://github.com/tskogberg/rut"
 
   gem.files         = `git ls-files`.split($/)
