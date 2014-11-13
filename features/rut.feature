@@ -27,6 +27,7 @@ Feature: See router uptime
     When I run `rut 999.999.999.999`
     Then the exit status should be 2
     And the output from "rut 999.999.999.999" should contain "999.999.999.999 is an invalid ip address"
+
   Scenario: Entering an invalid input
     When I run `rut something`
     Then the exit status should be 70
